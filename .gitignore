@@ -2,6 +2,7 @@
 /app/config/parameters.yml
 /build/
 /phpunit.xml
+/humbug.json
 /var/*
 var
 !/var/cache
