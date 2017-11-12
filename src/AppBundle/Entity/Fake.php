@@ -5,7 +5,7 @@ namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(readOnly=true, repositoryClass="AppBundle\Repository\FakeRepository")
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\FakeRepository")
  * @ORM\Table(name="fake")
  */
 class Fake
