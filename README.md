@@ -1,37 +1,14 @@
-# refactoring
+# Introduction to TDD workshop
 
 ## Set up
 
  ```
   composer install
  ```
+ 
+ Add the default database name symfony and your mysql user name and password
 
-## Tools
+## Exercise
 
-cache clear
-```
-bin/console cache:clear --no-warmup
-```
-
-phpunit
-```
-./vendor/bin/phpunit -c phpunit.xml.dist tests/
-```
-
-phpspec
-
-```
-./vendor/bin/phpspec
-
-```
-
-humbug mutation testing
-
-```
-./vendor/bin/humbug
-``` 
-
-phpstan (static analysis)
-```
-./vendor/bin/phpstan analyse src --level 7
-```
+- The exercise is described in OrderTracking.md.
+- There is also a list of useful commands in Commands.md.
