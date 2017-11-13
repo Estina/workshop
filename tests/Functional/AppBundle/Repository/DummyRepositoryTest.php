@@ -11,6 +11,7 @@ class DummyRepositoryTest extends WebTestCase
 {
     /** @var Client */
     private $client;
+    
     /** @var DummyRepository */
     private $repository;
 

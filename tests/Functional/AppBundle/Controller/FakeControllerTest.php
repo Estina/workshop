@@ -23,6 +23,8 @@ class FakeControllerTest extends WebTestCase
 
     /**
      * @test
+     *
+     * @link https://symfony.com/doc/current/components/browser_kit.html
      */
     public function shouldCreateAFake()
     {
