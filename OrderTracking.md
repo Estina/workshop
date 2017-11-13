@@ -7,7 +7,7 @@ We need to build a feature to track orders delivery.
 3. Persist the order and the tracking code
 4. Return the tracking code in the response
 
-###Order request
+### Order request
 
 **Id:** integer
 
@@ -27,7 +27,7 @@ Example JSON:
 }
 ```
 
-###3rd party tracking system
+### 3rd party tracking system
 
 Tracking API expects a GET request with the distributor, post code and the country.
 
@@ -39,7 +39,7 @@ ce729683e237977905fd357cc88b0534
 ### Response
 It has to return the tracking code
 
-#Steps:
+# Steps:
 
 1. Do it preferable in pairs (pair programming) 
 2. Design all the system using CRC cards or Diagrams, including infrastructure
