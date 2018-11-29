@@ -4,6 +4,7 @@ We need to build a feature to track orders delivery.
 
 1. Send some details to a 3rd party tracking system to get a tracking code
 2. Persist the order and the tracking code
+3. Return the tracking code
 
 ### 3rd party tracking system
 
