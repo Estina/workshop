@@ -10,5 +10,10 @@
 
 ## Exercise
 
-- The exercise is described in OrderTracking.md.
-- There is also a list of useful commands in Commands.md.
+- 1st part is [parsing](OrderParsing.md)
+- 2nd part is [tracking](OrderTracking.md)
+
+```
+./vendor/bin/phpunit -c phpunit.xml.dist tests/
+
+```
