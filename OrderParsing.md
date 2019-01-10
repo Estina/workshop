@@ -23,3 +23,8 @@ Example JSON:
   "weight": 1.456,
 }
 ```
+
+### Test example
+assert the country is SWEDEN
+assert postcode is 42332
+assert distributor is ups
