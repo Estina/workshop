@@ -18,3 +18,4 @@ var
 /vendor/
 /web/bundles/
 app/bootstrap.php.cache
+.idea
