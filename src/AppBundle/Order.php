@@ -22,4 +22,7 @@ class Order
     private $address;
     /** @var float */
     private $weight;
+
+
+
 }

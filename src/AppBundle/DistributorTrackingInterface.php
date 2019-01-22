@@ -1,9 +1,9 @@
 <?php
 
 
-namespace AppBundle\Service;
+namespace AppBundle;
 
 interface DistributorTrackingInterface
 {
-    public function track($distributor, $country, $postCode);
+    public function track(string $distributor, string $country, string $postCode);
 }

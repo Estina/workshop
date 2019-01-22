@@ -1,10 +1,12 @@
 <?php
 
-namespace AppBundle\Repository;
+namespace AppBundle;
 
+
+use AppBundle\Order;
 
 interface OrderRepositoryInterface
 {
-    public function save($order);
+    public function save(Order $order);
 
 }
